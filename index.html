@@ -1,64 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-          body {
-            font-family: Georgia, Times, "Times New Roman", serif; 
-            background-color: rgb(163, 206, 241);
-            font-size: 13px;
-            color: rgb(39, 76, 119);
+         body {
+            font-family: Georgia, Times, "Times New Roman", serif;
+            color: rgb(0, 16, 17);
+            font-size: 15px;
         }
         a:link {
-            color: rgb(39, 76, 119);
+            color: rgb(114, 128, 138);
         }
         a:visited {
-            color: rgb(139, 140, 137);
+            color: rgb(0, 16, 17);
         }
         a:hover {
-            background-color: rgb(96, 150, 186);
+            background-color: rgb(191, 215, 181);
         }
         #titlediv {
-            background-color: rgb(231, 236, 239);
-            font-size: 39px;
+            background-color: rgb(241, 250, 238);
+            font-size: 25px;
+            margin: -8px;
             padding-top: 7px;
             padding-bottom: 7px;
-            width: 99%;
-            border: 5px solid rgb(96, 150, 186);
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
         }
         #links {
-            text-align: center;
-            background-color: rgb(231, 236, 239);
-            margin-right: 5px;
-            margin-left: 5px;
+            font-size: 20px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: center;
             padding: 5px;
             clear: both;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border: 5px solid rgb(96, 150, 186);
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
-        }
-        .column.main {
-            width: 99%;
-            margin-top: 30px;
-            padding: 2px;
-            margin-right: 10px;
-            margin-left: 10px;
-            background-color: rgb(163, 206, 241);
         }
         .sotto {
-            background-color: rgb(231, 236, 239);
-            border: 5px solid rgb(96, 150, 186);
+            background-color: rgb(241, 250, 238);
             padding: 10px;
-            margin-bottom: 20px;
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
-        }
-        .column.side {
-            width: 30%;
-            margin-left: 10px;
-            margin-top: 30px;
-            background-color: rgb(163, 206, 241);
+            margin: -8px;
         }
         #title {
             text-align: center;
@@ -71,27 +46,11 @@
         }
         #piccolo {
             font-size: 10px;
-            background-color: rgb(231, 236, 239);
-            margin-right: 5px;
-            margin-left: 5px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: right;
             padding: 5px;
             clear: both;
-            margin-top: 20px;
-            border: 5px solid rgb(96, 150, 186);
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
-        }
-        #div2 {
-            width: 35%;
-            height: 300px;
-            float: right;
-            border: 5px solid rgb(96, 150, 186);
-            background-color: rgb(163, 206, 241);
-            padding-left: 7px;
-            padding-right: 7px;
-            font-size: 40px;
-            margin-right: 7px;
-            box-shadow: 5px 5px 20px rgb(163, 206, 241);
         }
        #img {
             float: left;
@@ -99,13 +58,9 @@
        #img2 {
             float: right;
        }
-       #home {
-           position: fixed;
-           right: 20px;
-           bottom: 20px;
-       }
        .column {
            background-color: rgb(255, 255, 255);
+           float: left;
        }
        .rubrica {
             width: 67%;
@@ -122,6 +77,11 @@
             position: relative;
             width: 99%;
         }
+      #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+       }
         </style>
         <meta charset="utf-8">
         <title>Just a Bookworm!</title>
@@ -129,14 +89,11 @@
     </head>
     <body>
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
-       
-       <div class="column main">   
-       <div class="sotto" style="text-align: center; font-size: 13px;"><p> You don't know Italian? See <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">here</a> the English version ;) !</p></div>
         
-       <div class="sotto"><p>Qui sotto troverete la lista dei film e quella delle serie tv che ho visto da quando ho deciso di iniziare il blog con le rispettive recensioni :) .</p>
+       <div class="sotto"><p style="margin-right: 20px; margin-left: 20px;">Qui sotto troverete la lista dei film e quella delle serie tv che ho visto da quando ho deciso di iniziare il blog con le rispettive recensioni :) .</p>
        
     <h3>FILM:</h3>
-    <p id="vicino">
+    <p id="vicino" style="margin-right: 20px; margin-left: 20px;">
     "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-cars/">Cars (saga)</a>"<br>
     "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-chiamamicoltuonome/">Chiamami col tuo nome</a>"<br>
     "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-laballatadibusterscruggs/">La ballata di Buster Scruggs</a>"<br>
@@ -144,15 +101,14 @@
     "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-thecircle/">The Circle</a>" <br>
     "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-toctoc/">Toc Toc</a>"</p>
        
-       <p>In realtà non recensisco qui tutti i film che vedo, spesso non riesco a scrivere più di qualche frase con i film. Se vi interessa scrivo in breve le mie impressioni riguardo ad ogni film che vedo su <a href="https://www.rottentomatoes.com/user/id/978816989">RottenTomatoes</a>.</p></div>
+       <p style="margin-right: 20px; margin-left: 20px;">In realtà non recensisco qui tutti i film che vedo, spesso non riesco a scrivere più di qualche frase con i film. Se vi interessa scrivo in breve le mie impressioni riguardo ad ogni film che vedo su <a href="https://www.rottentomatoes.com/user/id/978816989">RottenTomatoes</a>.</p></div>
     
     <div class="sotto"><h3>SERIE TV:</h3>
-    <p id="vicino">"<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-afterlife/">After Life</a>"<br>
+    <p id="vicino" style="margin-right: 20px; margin-left: 20px;">"<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-afterlife/">After Life</a>"<br>
         "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-hollywood/">Hollywood</a>"<br>
         "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-sexeducation/">Sex Education</a>"<br>
         "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-thehead/">The head</a>"<br>
         "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film-unorthodox/">Unorthodox</a>"</p>
-       
 </div>
            
            <div id="home"><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/"><img src="https://live.staticflickr.com/65535/50628268432_1f3120e8be.jpg" width="120px"></a></div>
